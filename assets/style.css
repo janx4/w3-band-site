@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+::selection{
+    background-color: pink;
+}
+
+.text-white-color{
+    color: white;
+}
+
+#header{
+    height: 48px;
+    background: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+
+}
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+#nav > li > a:hover{
+    background: wheat;
+    line-height: 48px;
+    color: red;
+    display: inline-block;
+}
+#nav > li > a{
+    color: white;
+    font-weight: bold;
+}
+#nav li a{
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 48px;
+}
+
+#nav .subnav{
+    position: absolute;
+    width: 140px;
+    background: wheat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#nav .subnav a{
+    color: black;
+}
+
+#nav .subnav{
+    display: none;
+}
+
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav .subnav li{
+    width: 140px;
+    font-weight: bold;
+
+}
+#nav .subnav li:hover a,
+#nav .subnav li:hover{
+    background: aqua;
+    color: red;
+}
+
+    /*Phần Slider*/
+#slider{
+    position: relative;
+    margin-top: 48px;
+    padding-top: 50%;
+    background: url("/w3school-band-site/assets/slide.jpg") top center / cover;
+}
+#slider .text-content{
+    color: white;
+    position: absolute;
+    -webkit-text-stroke: 0.5px red;
+    bottom: 32px;
+    width: 100%;
+    text-align: center;
+}
+#slider .text-heading,
+#slider .description {
+    bottom: 32px;
+}
+#slider .text-heading{
+    font-weight: 500;
+}
+#slider .description {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+    /*Phần ABOUT*/
+#content{
+    height: 1500px;
+    background: white;
+}
+#content .content-section{
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 64px 0;
+}
+#content .about-heading{
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+#content .about-sub-heading{
+    font-style: italic;
+    text-align: center;
+    color: gray;
+    margin: 16px 0;
+    font-size: 16px;
+}
+#content .about-content{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.4;
+
+}
+#content .member-list{
+    margin-top: 48px;
+    overflow: hidden;
+}
+#content .member{
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+
+}
+#content .member-name{
+    padding-bottom: 10px;
+    font-style: oblique;
+}
+#content .member-img{
+    width: 150px;
+    border-radius: 16px;
+}
+#content .member-img:hover{
+    opacity: 0.9;
+}
+
+
+#content .list-languages{
+    background: black;
+}
+#content .list{
+    background: white;
+}
+
+.list li{
+    color: #757575;
+    padding: 12px 0px 12px 12px;
+    border-bottom: 1px solid lightblue;
+    list-style: none;
+}
+
+.list .top{
+    background: #f44336;
+    padding: 2px 4px;
+}
+
+.list .slot-left{
+    float: right;
+    width: 24px;
+    height: 24px;
+    background: black;
+    border-radius: 50%;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 12px;
+    margin-top: -3px;
+}
+
+#content .langs-list{
+    margin-top: 16px;
+    overflow: hidden;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+#content .lang-item{
+    width: 33.33333%;
+    float: left;
+    padding: 0 8px;
+
+
+}
+#content .place-img{
+    width: 100%;
+    display: block;
+}
+#content .place-img:hover{
+    opacity: 0.7;
+}
+#content .lang-body{
+    background-color: white;
+    padding: 8px;
+    overflow: hidden;
+}
+#content .lang-heading{
+    padding: 4px;
+}
+#content .lang-heading:hover{
+    color: red;
+}
+#content .lang-time{
+    font-style: italic;
+    opacity: 0.7;
+    padding: 4px;
+}
+#content .lang-desc{
+    margin: 15px 0;
+    line-height: 1.4;
+}
+#content .learn-now{
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    background-color: black;
+    display: inline-block;
+    float: right;
+}
+#content .learn-now:hover{
+    color: black;
+    background-color: #aaaaaa;
+}
+
+#footer{
+
+}

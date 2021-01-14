@@ -11,7 +11,27 @@
 .text-white-color{
     color: white;
 }
-
+.clear{
+    clear: both;
+}
+.row{
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.col{
+    float: left;
+    padding: 0 8px;
+}
+.col-half{
+    width: 50%; !important;
+}
+.col-third{
+    width: 33.33333%; !important;
+}
+.col-full{
+    width: 100%; !important;
+}
+/*main*/
 #header{
     height: 48px;
     background: black;
@@ -134,9 +154,7 @@
 }
 #content .member{
     float: left;
-    width: 33.33333%;
     text-align: center;
-
 }
 #content .member-name{
     padding-bottom: 10px;
@@ -185,16 +203,8 @@
 #content .langs-list{
     margin-top: 16px;
     overflow: hidden;
-    margin-right: -8px;
-    margin-left: -8px;
 }
-#content .lang-item{
-    width: 33.33333%;
-    float: left;
-    padding: 0 8px;
 
-
-}
 #content .place-img{
     width: 100%;
     display: block;
@@ -233,6 +243,41 @@
 #content .learn-now:hover{
     color: black;
     background-color: #aaaaaa;
+}
+
+.contact{
+    padding: 32px 0;
+}
+.contact-info {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.contact-info i[class*="ti-"]{
+    width: 32px;
+    display: inline-block;
+}
+.contact-form{
+    font-size: 15px;
+    padding: 8px;
+}
+.form-control{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 4px;
+    width: 100%;
+}
+.submit-button{
+    padding: 8px 16px;
+    margin: 16px 0;
+    float: right;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.submit-button:hover{
+    color: black;
+    background-color: #ccc;
 }
 
 #footer{

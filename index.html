@@ -12,7 +12,7 @@
     <div id="header">
         <ul id="nav">
             <li>
-                <a href="#">HOMEeeee</a>
+                <a href="#">HOME</a>
             </li>
             <li>
                 <a href="#">C++</a>
@@ -55,19 +55,19 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
 
-            <div class="member-list">
+            <div class="row member-list">
 
-                <div class="member">
+                <div class="col-third member">
                     <p class="member-name">CUTE !</p>
                     <img src="/w3school-band-site/assets/girl-1.jpg" alt="Image" class="member-img">
                 </div>
 
-                <div class="member">
+                <div class="col-third member">
                     <p class="member-name">BEAUTY !</p>
                     <img src="/w3school-band-site/assets/girl-2.jpg" alt="Image" class="member-img">
                 </div>
 
-                <div class="member">
+                <div class="col-third member">
                     <p class="member-name">GORGEOUS !</p>
                     <img src="/w3school-band-site/assets/girl-3.jpg" alt="Image" class="member-img">
                 </div>
@@ -85,34 +85,34 @@
                     <li>Java Script  <span class="top text-white-color">Hot !</span></li>
                     <li>PHP  <span class="slot-left text-white-color">1</span></li>
                 </ul>
-                    <div class="langs-list">
-                        <div class="lang-item">
+                    <div class="row langs-list">
+                        <div class="col col-third">
                             <img src="/w3school-band-site/assets/python.jpg" alt="Python" class="place-img">
                             <div class="lang-body">
                                 <h3 class="lang-heading">Python</h3>
                                 <p class="lang-time">1991</p>
                                 <p class="lang-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a href="" class="learn-now">Learn now !</a>
+                                <a href="https://www.python.org/" class="learn-now">Learn now !</a>
                             </div>
                         </div>
 
-                        <div class="lang-item">
+                        <div class="col col-third">
                             <img src="/w3school-band-site/assets/js.jpg" alt="Js" class="place-img">
                             <div class="lang-body">
                                 <h3 class="lang-heading">JavaScript</h3>
                                 <p class="lang-time">1995</p>
                                 <p class="lang-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a href="" class="learn-now">Learn now !</a>
+                                <a href="https://js.org/" class="learn-now">Learn now !</a>
                             </div>
                         </div>
 
-                        <div class="lang-item">
+                        <div class="col col-third">
                             <img src="/w3school-band-site/assets/java.jpg" alt="Java" class="place-img">
                             <div class="lang-body">
                                 <h3 class="lang-heading">Java</h3>
                                 <p class="lang-time">1995</p>
                                 <p class="lang-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a href="" class="learn-now">Learn now !</a>
+                                <a href="https://www.java.com/en/" class="learn-now">Learn now !</a>
                             </div>
                         </div>
                     </div>
@@ -126,6 +126,36 @@
         <div class="content-section">
             <h2 class="about-heading">CONTACT</h2>
             <p class="about-sub-heading">Contact me if you want !</p>
+
+            <div class="row contact">
+
+                <div class="col col-half contact-info" style="margin-bottom: 500px">
+                    <p><i class="ti-location-pin"></i>Da Nang City</p>
+                    <p><i class="ti-mobile"></i>Phone: +84334 610 551</p>
+                    <p><i class="ti-email"></i>Email: huytruong641@gmail.com</p>
+                </div>
+                <div class="col col-half contact-form">
+                    <form action="">
+                        <div class="row">
+                            <div class="col col-half">
+                                <input type="text" name="" required placeholder="Name" id="" class="form-control">
+                            </div>
+                            <div class="col col-half">
+                                <input type="email" name="" required  placeholder="Email" id="" class="form-control">
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-full">
+                                <input type="text" name="" required  placeholder="Message" id="" class="form-control">
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <input type="submit" value="SEND" class="submit-button">
+                    </form>
+                </div>
+
+            </div>
         </div>
 
     </div>
